@@ -1,0 +1,11 @@
+#Docker Comandos
+
+docker build -t springbootmongo .
+
+docker run --name springbootapi -p 10555:8080 springbootmongo
+
+#DockerCompose comandos
+
+docker-compose up -d --build
+
+docker-compose down

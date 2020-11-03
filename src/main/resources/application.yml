@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mongodb.Mongo
+  data:
+    mongodb:
+#host: api-database "para subir no docker"
+      host: localhost
+      database: tarefas_db
+      port: 27017
+logging:
+  level:
+    ROOT: DEBUG
+debug: true
